@@ -1,0 +1,7 @@
+PyQt6>=6.7,<7
+numpy>=1.26,<3
+scipy>=1.12,<2
+soundfile>=0.12,<1
+sounddevice>=0.4.7,<1
+deepfilter-stream>=0.1.0
+sherpa-onnx>=1.12.0,<2

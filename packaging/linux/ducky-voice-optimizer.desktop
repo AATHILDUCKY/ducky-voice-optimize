@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Ducky Voice Optimizer
+Comment=Local AI voice enhancement and vocal separation
+Exec=ducky-voice-optimizer
+Icon=ducky-voice-optimizer
+Categories=AudioVideo;Audio;AudioVideoEditing;
+Terminal=false
+StartupNotify=true
+StartupWMClass=ducky-voice-optimizer
+Keywords=voice;noise;denoise;vocal;audio;separation;
+

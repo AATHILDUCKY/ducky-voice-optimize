@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+APPDIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+export LD_LIBRARY_PATH="$APPDIR/usr/lib/ducky-voice-optimizer/_internal${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
+exec "$APPDIR/usr/lib/ducky-voice-optimizer/ducky-voice-optimizer" "$@"
+
